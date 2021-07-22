@@ -22,7 +22,7 @@ h2{
     font-size: 75%;
 }
 header{
-    height: 200vh;
+    height: 150vh;
 }
 header nav{
     height: 4%;
@@ -76,10 +76,9 @@ header h1 span{
 .mainTop{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 15%;
 }
 .mainTop h2{
-    margin-bottom:5vh;
+    margin-bottom:5%;
 }
 .mainTopLeft{
     margin-right: 10%;
@@ -129,6 +128,7 @@ footer{
     background-color: #000;
     color: #fff;
     padding: 5%;
+    height: 70%;
     font-size: 800%;
 }
 .footerTop button{
