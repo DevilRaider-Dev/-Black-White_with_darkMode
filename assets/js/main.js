@@ -1,9 +1,29 @@
-/*
+function darkMode() {
+    generateCssString()
+}
 
-Assets:
-Font: Die Font ist im Ordner zum herunterladen
-Farbe: #fff / #000
-
-Hinweise:
-Suche nach -webkit-text-stroke und -webkit-text-stroke-color
-*/
+function generateCssString() {
+    let cssOld = document.getElementById("css").href.split("/");
+    let cssNew = "";
+    if (cssOld[5] = "style.css") {
+        cssOld[5] = "darkMode.css";
+        cssOld.forEach(element => {
+            if (!cssOld[5]) {
+                cssNew += element + "/";
+            } else {
+                cssnew += element;
+            }
+        });
+    } else {
+        cssOld[5] = "darkMode.css";
+        cssOld.forEach(element => {
+            if (!cssOld[5]) {
+                cssNew += element + "/";
+            } else {
+                cssnew += element;
+            }
+        });
+    }
+        document.getElementById("css").href = cssNew;
+        console.log(cssNew);
+}
