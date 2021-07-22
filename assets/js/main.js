@@ -1,6 +1,5 @@
 function generateCssString(){
     let cssOld = document.getElementById("css").href.split("/");
-    console.log(document.getElementById("css").href)
     if(cssOld[5] == "style.css"){
         document.getElementById("css").href = "assets/css/darkMode.css";
         document.getElementById("buttonMode").innerHTML = "Light Mode";
