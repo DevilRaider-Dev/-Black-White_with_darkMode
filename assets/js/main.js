@@ -1,3 +1,7 @@
+function darkMode() {
+    generateCssString()
+}
+
 function generateCssString(){
     let cssOld = document.getElementById("css").href.split("/");
     if(cssOld[5] == "style.css"){
@@ -32,8 +36,4 @@ function lightPicture(){
     img[5].src = "assets/img/matthew-henry-kX9lb7LUDWc-unsplash.png"
     img[6].src = "assets/img/phoebe-strafford-EBbP0Wrbmqs-unsplash.png"
     img[7].src = "assets/img/landspace-mid.png"
-}
-
-function darkMode() {
-    generateCssString()
 }
