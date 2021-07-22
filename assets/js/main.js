@@ -6,11 +6,11 @@ function darkMode() {
 function generateCssString(){
     let cssOld = document.getElementById("css").href.split("/");
     if(cssOld[5] == "style.css"){
-        document.getElementById("css").href = "https://devilraider-dev.github.io/-Black-White_with_darkMode/assets/css/darkMode.css";
+        document.getElementById("css").href = "assets/css/darkMode.css";
         document.getElementById("buttonMode").innerHTML = "Light Mode";
         darkPicture();
     }else if(cssOld[5] = "darkMode.css"){
-        document.getElementById("css").href = "https://devilraider-dev.github.io/-Black-White_with_darkMode/assets/css/style.css";
+        document.getElementById("css").href = "assets/css/style.css";
         document.getElementById("buttonMode").innerHTML = "Dark Mode";
         lightPicture();
     }
