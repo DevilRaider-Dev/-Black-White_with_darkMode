@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'rz';
+    src: url('../fonts/rz-regular.woff2');
+}
+@font-face {
+    font-family: 'maison';
+    src: url('../fonts/maison-neue-mono.woff2');
+}
+*{
+    margin: 0;
+    font-family: "rz", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover:not(header a){
+    text-decoration: underline;
+}
+h2{
+    font-family: maison;
+    font-size: 75%;
+}
+header{
+    height: 200vh;
+}
+header nav{
+    height: 4%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+header nav ul{
+    list-style: none;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav button{
+    background-color: #fff;
+    border: 1px solid black;
+}
+header nav button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.bg_img_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+}
+.bg_img_header img{
+    width: 22%;
+}
+.bg_img_header img:nth-child(1){
+    margin-bottom: 10%;
+}
+.bg_img_header img:nth-child(2){
+    margin-top: 5%;
+}
+header h1{
+    margin: auto;
+    margin-top: -60%;
+    font-size: 8.3vw;
+    line-height: 90%;
+    width: 90%;
+}
+header h1 span{
+    color: #fff;
+    -webkit-text-stroke: .1vw rgb(88, 88, 88);
+}
+.mainTop{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15%;
+}
+.mainTop h2{
+    margin-bottom:5vh;
+}
+.mainTopLeft{
+    margin-right: 10%;
+}
+.mainTopLeft ul{
+    list-style: none;
+    padding-left: 0;
+}
+.mainTopLeft a{
+    font-size: 200%;
+}
+.mainTopRight{
+    width: 50%;
+}
+.mainBottom img{
+    width: 45%;
+}
+.mainBottom>h2{
+    margin: 10%;
+    text-align: center;
+}
+.landscape section{
+    margin: 0 10%;
+}
+.landscape a{
+    font-size: 300%;
+}
+.landscape:nth-last-of-type(odd){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+.landscape:nth-last-of-type(even){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.landscape:nth-last-of-type(even) section{
+    order: 1;
+}
+footer{
+    margin-top: 5%;
+    height: 100vh;
+}
+.footerTop{
+    background-color: #000;
+    color: #fff;
+    padding: 5%;
+    font-size: 800%;
+}
+.footerTop button{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 1% 5%
+}
+.footerTop button:hover{
+    box-shadow: 3px 3px#fff;
+}
+.footerBottom{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
